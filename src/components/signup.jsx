@@ -116,13 +116,13 @@ const Signup = () => {
         {errors.password && <Error message={errors.password} />}
         <div className="space-y-1">
           <input
-            name="profile-pic"
+            name="profile_pic"
             type="file"
             accept="image/*"
             onChange={handleInputChange}
           />
         </div>
-        {errors.profile-pic && <Error message={errors.profile-pic} />}
+        {errors.profile_pic && <Error message={errors.profile_pic} />}
       </CardContent>
       <CardFooter>
         <Button onClick={handleSignup}>
