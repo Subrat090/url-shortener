@@ -11,7 +11,7 @@ export async function login({email, password}) {
   return data;
 }
 
-export async function signup({name, email, password, profile-pic}) {
+export async function signup({name, email, password, profile_pic}) {
   const fileName = `dp-${name.split(" ").join("-")}-${Math.random()}`;
 
   const {error: storageError} = await supabase.storage
@@ -26,7 +26,7 @@ export async function signup({name, email, password, profile-pic}) {
     options: {
       data: {
         name,
-        profile-pic: `${supabaseUrl}/storage/v1/object/public/profile-pic/${fileName}`,
+        profile_pic: `${supabaseUrl}/storage/v1/object/public/profile-pic/${fileName}`,
       },
     },
   });
