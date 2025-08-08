@@ -83,6 +83,6 @@ Contributions are welcome! Feel free to fork the project and submit pull request
 
 ## 📬 Contact
 For any inquiries or collaboration opportunities, reach out via:
-- **GitHub**: Abhishek-raj-292002(https://github.com/Abhishek-raj-292002)
-- **Email**: abhishek.raj292002@gmail.com
+- **GitHub**: https://github.com/Subrat090
+- **Email**: Subratmahapatro09@gmail.com
 
